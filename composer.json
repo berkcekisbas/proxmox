@@ -1,0 +1,26 @@
+{
+    "name": "berk/proxmox",
+    "type": "library",
+    "license": "MIT",
+
+    "autoload": {
+        "psr-4": {
+            "Berk\\Proxmox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Berk Çekişbaş",
+            "email": "berkcekisbas@hotmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Berk\\Proxmox\\ProxmoxServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
